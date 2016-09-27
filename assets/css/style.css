@@ -18,7 +18,15 @@ body{
 
 
 /* this is the top nav bar */
+.topBarWhite{
+	 background-color:white;
+	 height:60px;
+	 width:100%;
+}
 .topBar{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
 	background-color: #ffffff;
 	height:50px;
 	line-height: 50px;
@@ -27,7 +35,6 @@ body{
 }
 .myName{
 	float:left;
-	margin-left:50px;
 	width: 100px;
 	text-align: center;
 	background-color: #4aaaa5;
@@ -63,7 +70,7 @@ a:hover{
 	margin-left: auto;
     margin-right: auto;
     margin-top:20px;
-    width: 974px;
+    width: 960px;
     position: relative;
 }
 #contentBox, .connectWithMe {
